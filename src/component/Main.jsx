@@ -1,6 +1,7 @@
 import React from 'react';
 import {Paper, Container, Grid, Typography, Button } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
+import MainBlock1 from "./MainBlock1";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -45,14 +46,15 @@ function Main() {
                                     color="inherit"
                                     gutterBottom
                                 >
-                                    Web Developer Blog
+                                    Цілодобове пожежне спостереженняя
                                 </Typography>
                                 <Typography
                                     variant="h5"
                                     color="inherit"
                                     paragraph
                                 >
-                                    loren ipsum dolar sit amet, c loren ipsum dolar sit amet, c loren ipsum dolar sit amet, c loren ipsum dolar sit amet, c loren ipsum dolar sit amet, c
+                                    Підключення на тульт централізованого спостереження систем автоматичної пожежної
+                                    сигналізаціїдля цілодобового моніторингу
 
                                 </Typography>
                                 <Button variant="contained" color="secondary">
@@ -65,6 +67,7 @@ function Main() {
 
                 </Container>
             </Paper>
+            <MainBlock1 />
         </main>
     )
 }
